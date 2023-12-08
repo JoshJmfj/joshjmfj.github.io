@@ -1,38 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>  
-    <title>Lab 9</title>
-    <link rel="stylesheet" type="text/css" href="css/lab09.css" />
-    <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    
-   <script type="text/javascript" language="javascript" src="js/lab09-walkthrough08.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pyramids of Giza</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
 </head>
-<body class="form-body">
+<body>
+  <header>
+    <h1>Pyramids of Giza</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="Index.html">Home</a>
+      <a class="navbar-brand" href="history.html">History</a>
+      <a class="navbar-brand" href="Construction.html">Construction</a>
+      <a class="navbar-brand" href="facts.html">Facts</a>
+      <a class="navbar-brand" href="gallery.html">Gallery</a>
+      <a class="navbar-brand" href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>The Pyramids of Giza are one of the most iconic and enduring monuments in human history...</p>
 
+    <h2>Construction</h2>
+    <p>The construction of the pyramids involved intricate engineering techniques and thousands of skilled workers...</p>
 
-<div class="form-box">
-  <h1>Registration</h1>
+    <h2>Facts</h2>
+    <table>
+      <tr>
+        <th>Pyramid</th>
+        <th>Height</th>
+        <th>Year Built</th>
+      </tr>
+      <tr>
+        <td>Great Pyramid of Giza</td>
+        <td>146.6 meters</td>
+        <td>2580 BC</td>
+      </tr>
+      <tr>
+        <td>Khafre's Pyramid</td>
+        <td>136.4 meters</td>
+        <td>2532 BC</td>
+      </tr>
+      <tr>
+        <td>Menkaure's Pyramid</td>
+        <td>65 meters</td>
+        <td>2510 BC</td>
+      </tr>
+    </table>
 
-  <form method="get" action="#" id="sampleForm">
+    <h2>Gallery</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/Pyramid1.jpg" alt="Pyramid 1">
+      </div>
+      <div class="col-md-4">
+        <img src="images/Pyramid2.jpg" alt="Pyramid 2">
+      </div>
+      <div class="col-md-4">
+        <img src="images/pyramid3.jpg" alt="Pyramid 3">
+      </div>
+    </div>
+  </div>
 
-  <hr>
-  <label id="icon" for="name"><i class="fa fa-user fa-fw"></i></label>
-  <input type="text" name="name" id="name" placeholder="Name" />
-  <label id="icon" for="email"><i class="fa fa-phone fa-fw"></i></label>
-  <input type="text" name="phone" id="phone" placeholder="Phone" />
-  <label id="icon" for="email"><i class="fa fa-envelope fa-fw"></i></label>
-  <input type="text" name="email" id="email" placeholder="Email" />    
-  <label id="icon" for="pass"><i class="fa fa-key fa-fw"></i></label>
-  <input type="password" name="pass" id="pass" placeholder="Password" />
-
-   <button type="submit" ><i class="fa fa-reply fa-fw"></i> Register</button> 
-   
-  </form>
-</div>
-      
-<div id="errors" class="visible">
-</div>      
-       
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

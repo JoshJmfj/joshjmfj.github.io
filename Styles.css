@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Remove default body margin */
+  }
+  
+  header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #e9ecef;
+  }
+  
+  nav a {
+    color: #495057;
+    padding: 0.75rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #adb5bd;
+  }
+  
+  .container {
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem; /* Add some padding to the container for better readability on smaller screens */
+  }
+  
+  h2 {
+    color: #343a40;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  table, th, td {
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+  }
+  
+      /* Additional styling for the carousel images */
+      #pyramidsCarousel img {
+        max-height: 400px; /* Adjust this value based on your preferences */
+        max-width: 600px;
+        margin: auto; /* Center the image horizontally */
+      }
+      #pyramidsCarousel {
+      background-color: rgba(211, 204, 204, 0.4); /* Gray with 70% opacity */
+  }
